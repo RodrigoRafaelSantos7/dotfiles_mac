@@ -18,8 +18,17 @@ alias l="ls" # List files in current directory
 alias ll="ls -al" # List all files in current directory in long list format
 alias o="open ." # Open the current directory in Finder
 alias ghost="gs" # replace ghostscript command so git status works properly
-alias pn="pnpm"
-alias pna="pnpm add"
+
+# -------
+# pnpm Aliases
+# -------
+alias p="pnpm"
+alias pi="pnpm install"
+alias pa="pnpm add"
+alias pd="pnpm dev"
+alias pb="pnpm build"
+alias pr="pnpm run"
+alias psd="pnpm start:dev"
 
 # ----------------------
 # Git Aliases
